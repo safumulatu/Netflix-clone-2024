@@ -43,7 +43,7 @@ const Footer = () => {
       </div>
       <div className='service_code'>
         <p>
-          Service Code
+          Services Code
         </p>
       </div>
       <div className='copy-write'>
