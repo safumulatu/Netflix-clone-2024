@@ -1,7 +1,7 @@
 import SearchIcon from '@mui/icons-material/Search';
 import NotificationsNoneIcon from '@mui/icons-material/NotificationsNone';
-import AccountBoxIcon from '@mui/icons-material/AccountBox';
 import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
+import profile from '../../images/10001.png'
 import "./Header.css"
 import Logo from "../../images/Logo.png"
 const Header = () => {
@@ -24,7 +24,9 @@ const Header = () => {
                   <ul>
                       <li><SearchIcon /></li>
                       <li><NotificationsNoneIcon /></li>
-                      <li><AccountBoxIcon /></li>
+                      {/* <li><AccountBoxIcon /></li> */}
+                      <a href=""><img src={profile} width = "30px" height = 
+                          "30px"alt="profile poto"/></a>
                       <li><ArrowDropDownIcon /></li>
                   </ul>
               </div>

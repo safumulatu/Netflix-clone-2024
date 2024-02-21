@@ -6,6 +6,7 @@ const Footer = () => {
   return (
     <div className='footer-container'>
     <div className='foot_inner_container'>
+      <a href="/">
       <div className='footer_icons'>
         <FacebookOutlinedIcon />
         <InstagramIcon />
@@ -49,6 +50,7 @@ const Footer = () => {
       <div className='copy-write'>
         &copy; 1997-2024 Netflix, Inc.
       </div>
+      </a>
     </div>
   </div>
   )
