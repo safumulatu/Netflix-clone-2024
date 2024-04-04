@@ -49,3 +49,20 @@ a {
 a img {
   border-radius: 50%;
 }
+@media screen and (max-width: 600px) {
+  .header_container {
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .left-navbar {
+    display: none;
+    flex-direction: row;
+    justify-content: space-evenly;
+    row-gap: 2px;
+  }
+  .right-navbar {
+    display: none;
+  }
+}
