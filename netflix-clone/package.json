@@ -3,10 +3,10 @@
     "version": "1.0.0",
     "description": "A Netflix clone project.",
     "scripts": {
-      "start": "vite",  // Run the development server
-      "build": "vite build",  // Build the project for production
-      "lint": "eslint . --ext js,jsx",  // Lint the project files
-      "deploy": "gh-pages -d dist"  // Deploy the project to GitHub Pages
+      "start": "vite",
+      "build": "vite build",
+      "lint": "eslint . --ext js,jsx",
+      "deploy": "gh-pages -d dist"
     },
     "dependencies": {
       "@emotion/react": "^11.11.3",
